@@ -27,9 +27,9 @@ setuptools.setup(
         'unidecode',
         'scipy',
         'librosa',
-        'transformers==4.31.0',
-        'tokenizers==0.13.4.rc3',
-        'scipy==1.13.1'
+        'transformers>=4.43.0,<=4.43.3',
+        'tokenizers', # ==0.13.4.rc3',
+        # 'scipy==1.13.1'
         # 'deepspeed==0.8.3',
     ],
     classifiers=[
