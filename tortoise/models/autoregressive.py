@@ -32,7 +32,7 @@ class ResBlock(nn.Module):
         return F.relu(self.net(x) + x)
 
 
-class GPT2InferenceModel(GPT2PreTrainedModel):
+class GPT2InferenceModel(GPT2PreTrainedModel, GenerationMixin):
     def __init__(self, config, gpt, text_pos_emb, embeddings, norm, linear, kv_cache=False):
         super().__init__(config)
         self.transformer = gpt
