@@ -4,9 +4,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="tortoise-tts",
+    name="tts_webui.tortoise-tts",
     packages=setuptools.find_packages(),
-    version="3.0.1",
+    version="3.0.3",
     author="James Betker",
     author_email="james@adamant.ai",
     description="A high quality multi-voice text-to-speech library",
