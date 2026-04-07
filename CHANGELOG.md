@@ -1,4 +1,6 @@
 ## Changelog
+#### v3.0.4; 2026/4/7
+- Pinned transformer version to be below 5.0.0; however this package will become inoperable unless upgraded.
 #### v3.0.0; 2023/10/18
 - Added fast inference for tortoise with HiFi Decoder (inspired by xtts by [coquiTTS](https://github.com/coqui-ai/TTS) 🐸, check out their multilingual model for noncommercial uses)
 #### v2.8.0; 2023/9/13
