@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name="tts_webui.tortoise-tts",
     packages=setuptools.find_packages(),
-    version="3.0.3",
+    version="3.0.4",
     author="James Betker",
     author_email="james@adamant.ai",
     description="A high quality multi-voice text-to-speech library",
@@ -27,7 +27,7 @@ setuptools.setup(
         'unidecode',
         'scipy',
         'librosa',
-        'transformers>=4.43.0',
+        'transformers>=4.43.0,<5.0.0',
         'tokenizers', # ==0.13.4.rc3',
         # 'scipy==1.13.1'
         # 'deepspeed==0.8.3',
